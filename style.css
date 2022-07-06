@@ -1,0 +1,221 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+h5{
+    margin-left: 5px;
+    font-size: large;
+}
+
+
+
+.navbar{
+    color: white;
+
+    background-color: royalblue;
+    position: relative;
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+.menu{
+
+}
+.menu > ul {
+ display: flex;
+}
+ul{
+    list-style-type: none
+}
+.menu  > ul > li {
+    padding-right: 20px;
+}
+.menu  > ul > li:hover {
+    color: red;
+}
+.button {
+    margin-right: 4px;
+}
+.button > #bt-1{
+    border-radius: 4px;
+    background-color: #f5d523; 
+    border: 1px solid black;
+  border: none;
+  color: rgb(7, 7, 7);
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button > #bt-1:hover{
+   background-color: #fc2d2d;
+   color: #000000;
+}
+.button > #bt-2{
+    border-radius: 4px;
+    border: 1px solid black;
+    background-color: #f5d523; 
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button > #bt-2:hover{
+    background-color: #ee3d08;
+    color: #000000;
+ }
+.carousel{
+    /* background-image: url(./a.jpg); */
+    background-color: #000000;
+    background-size: 100%;
+    height: 50vh;
+    color: white;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+.control{
+    position: relative;
+    right: 400px;
+}
+.control > h2 {
+    color: #14bfea;
+}
+
+.rtk {
+    background-color: #000000; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: rgb(209, 35, 35); 
+    color: rgb(255, 240, 240); 
+    border: 2px solid #000000;
+  }
+  
+.button1:hover {
+    background-color: #b8eb00;
+    color: rgb(0, 0, 0);
+  }
+  .control > h2 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+ .third-1{
+    margin-top: 20px;
+    text-align: center;
+ }
+ .grid-use {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: repeat(2, 200px);
+    gap: 20px;
+    justify-content: center;
+ }
+ .one{background-color: #b8eb00; border-radius: 25px; text-align: center; display: grid; align-items: center;}
+ .two{background-color: #153a58; border-radius: 25px; text-align: center; display: grid; align-items: center;}
+ .three{background-color: #947205; border-radius: 25px; text-align: center; display: grid; align-items: center;}
+ .four{background-color: #5e1040; border-radius: 25px; text-align: center; display: grid; align-items: center;}
+ .five{background-color: #1496d3; border-radius: 25px; text-align: center; display: grid; align-items: center;}
+ .six{background-color: #b7c723c5; border-radius: 25px; text-align: center; display: grid; align-items: center;}
+
+ .bt-3{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+  #bt-3{
+    background-color: #FF8A47;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: 100;
+  font-size: 15px;
+  transition-duration: 0.4s;
+  border: 1px solid black;
+
+ }
+ #bt-3:hover{
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+  
+ }
+ .second-image{
+
+display: flex;
+justify-content: center;
+ }
+.header{
+    text-align: center;
+    margin-bottom: 12px;
+}
+.main-con{
+    border-radius: 8px;
+    background-color: cornflowerblue;
+    position: relative;
+ margin: 0% auto;
+    justify-content: center;
+    width: 70%;
+    border: 1px solid black;
+    height: 400px;
+    margin-bottom: 30px;
+
+}
+.inside-con{
+    border-radius: 8px;
+    background-color: aliceblue;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top:20px ;
+    padding: 0px 40px;
+position: absolute;
+left: 7%;
+    width: 800px;
+    height: 360px;
+    border: 1px solid black;
+}
+#col-1{border: 1px solid black;
+margin-top: 12px;
+border-radius: 8px;
+padding: 4px 8px;
+}
+#col-2{border: 1px solid black;
+    border-radius: 8px;
+    padding: 4px 8px;
+
+}
+#col-3{border: 1px solid black;
+    border-radius: 8px;
+    padding: 4px 8px;
+}
+#col-4{border: 1px solid black;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    padding: 4px 8px;
+}
